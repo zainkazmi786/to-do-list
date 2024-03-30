@@ -23,21 +23,21 @@ function App() {
   
   return (
     <>
-      <div className='w-full h-screen relative flex flex-col overflow-hidden bg-black'>
+      <div className='w-full h-screen relative flex flex-col overflow-hidden bg-black gap-20'>
 
-        <div className="image h-1/3 w-full flex items-center justify-center absolute top-0">
+        <div className="lg:h-1/3 w-full flex items-center justify-center">
           <div className="textblock h-2/3">
-          <span className="text-10xl font-extrabold font-mono text-with-shadow"> {renderedTodo} </span>
+          <span className="lg:text-9xl text-5xl font-extrabold font-mono text-with-shadow"> {renderedTodo} </span>
 
-            <span className='text-10xl font-extrabold'>_</span>
+            <span className='lg:text-9xl text-6xl font-extrabold'>_</span>
           </div>
         </div>
 
-        <div className="h-3/4 grid grid-cols-4 absolute top-60 w-full rounded-t-3xl">
-          <div className="grid-item flex justify-center items-center"><Box color="bg-indigo-800" heading="TODAY" /></div>
-          <div className="grid-item flex justify-center items-center"><Box color="bg-rose-800" heading="THIS WEEK" /></div>
-          <div className="grid-item flex justify-center items-center"><Box color="bg-fuchsia-800" heading="THIS YEAR" /></div>
-          <div className="grid-item flex justify-center items-center"><Box color="bg-green-800" heading="LONG TERM" /></div>
+        <div className="h-3/4 grid lg:grid-cols-4 grid-cols-1 gap-10 w-full rounded-t-3xl overflow-auto">
+          <div className="grid-item flex justify-center items-center p-3"><Box color="bg-indigo-800" heading="TODAY" /></div>
+          <div className="grid-item flex justify-center items-center p-3"><Box color="bg-rose-800" heading="THIS WEEK" /></div>
+          <div className="grid-item flex justify-center items-center p-3"><Box color="bg-fuchsia-800" heading="THIS YEAR" /></div>
+          <div className="grid-item flex justify-center items-center p-3"><Box color="bg-green-800" heading="LONG TERM" /></div>
         </div>
       </div>
     </>

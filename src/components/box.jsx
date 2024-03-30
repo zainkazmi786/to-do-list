@@ -98,7 +98,7 @@ const Box = ({ color, heading }) => {
 
     }, [todos]);
     return (
-        <div className={`box ${color} w-5/6 h-96 relative rounded-xl flex`}>
+        <div className={`box ${color} w-5/6 h-96 relative rounded-xl flex box-shadow`}>
             <div className="bg-slate-900 absolute h-20 w-full rounded-t-xl text-cyan-50 flex items-center justify-center">
                 <div className="buttons bg-emerald-900 h-12 w-4/5 rounded-full flex justify-evenly items-center border-2 ">
                     <form id='add' className={`${hide ? "hidden" : ""} ${hide3 ? "" : "hidden"}  flex w-full justify-evenly`} onSubmit={handlesubmit}>

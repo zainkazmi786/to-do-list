@@ -1,0 +1,7 @@
+.text-with-shadow {
+    text-shadow:  8px 6px 13px rgb(255 255 255 / 50%)
+}
+.text-10xl {
+    font-size: 10rem; /* Adjust as needed */
+    line-height: 1; /* Adjust line height as needed */
+  }

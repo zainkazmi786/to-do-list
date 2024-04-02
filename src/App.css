@@ -9,7 +9,7 @@
     font-size: 3rem; /* Adjust as needed */
     line-height: 1;
 }
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1300px) {
     .head{
         font-size: 12rem; /* Adjust as needed */
         line-height: 1;

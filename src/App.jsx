@@ -27,9 +27,9 @@ function App() {
 
         <div className="lg:h-1/3 w-full flex items-center justify-center">
           <div className="textblock h-2/3">
-          <span className="lg:text-9xl text-5xl font-extrabold font-mono text-with-shadow"> {renderedTodo} </span>
+          <span className="head font-extrabold font-sans text-with-shadow"> {renderedTodo} </span>
 
-            <span className='lg:text-9xl text-6xl font-extrabold'>_</span>
+            <span className='head font-extrabold font-mono text-with-shadow'>_</span>
           </div>
         </div>
 

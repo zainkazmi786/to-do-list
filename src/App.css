@@ -1,7 +1,17 @@
 .text-with-shadow {
-    text-shadow:  8px 6px 13px rgb(255 255 255 / 50%)
+    text-shadow: -9px -7px 15px rgb(255 255 255 / 50%);
+
+    color: black; /* Hide the text */
+    -webkit-text-stroke: 4px white; /* Set the border width and color */
+    text-fill-color: black; 
 }
-.text-10xl {
-    font-size: 12rem; /* Adjust as needed */
-    line-height: 1; /* Adjust line height as needed */
+.head{
+    font-size: 3rem; /* Adjust as needed */
+    line-height: 1;
+}
+  @media screen and (min-width: 1000px) {
+    .head{
+        font-size: 12rem; /* Adjust as needed */
+        line-height: 1;
+    }
   }
